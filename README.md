@@ -1,6 +1,6 @@
 # hellomario
 
-## Example in assembly on how to initialize stuff and draw a sprint on screen for the Nintendo Entertainment System (NES)
+## Example in assembly on how to initialize stuff and draw a Sprite on screen for the Nintendo Entertainment System (NES)
 
 This code is a rip-off from the guide made by Michael Chiaramonte at [THIS VIDEO](https://www.youtube.com/watch?v=LeCGYp0JWok).
 
