@@ -19,4 +19,4 @@ To compile, just run the `make.sh` script.
 The `clear.sh` script will remove compiled files.
 
 ### TO-DO
-- Audio is playing weird noise. Learn how to fix that (Audio IRQ is supposed to be disabled).
+- Audio is playing weird noises. Learn how to fix that (Audio IRQ is supposed to be disabled).
