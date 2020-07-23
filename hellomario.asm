@@ -20,8 +20,13 @@ Reset:
 	SEI				; Disables all interrupts
 	CLD				; Disables decimal mode - NES doesn't support it
 	; Disables sound IRQ
-	LDX #$40
+	LDX #$80
+	STX $4010
+	; Reset APU Frame Counter
 	STX $4017
+	; Disable all channels
+	LDX #$00
+	STX $4015
 	; Initializes stack register
 	LDX #$FF
 	TXS
@@ -30,7 +35,6 @@ Reset:
 	; Clear PPU registers
 	STX $2000
 	STX $2001
-	STX $4010
 
 	; Wait for VBlank
 :
